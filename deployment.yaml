@@ -13,6 +13,8 @@ spec:
       labels:
         app: apache
     spec:
+      imagePullSecrets:
+      - name: nks-cr-cred
       containers:
       - image: o6r0n6ke.kr.private-ncr.ntruss.com/gitlab-nks:latest
         imagePullPolicy: Always
