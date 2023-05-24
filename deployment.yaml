@@ -19,7 +19,9 @@ spec:
         name: apache
         ports:
         - containerPort: 80
+
 ---
+
 apiVersion: v1
 kind: Servicemetadata:
   name: gitlab-nks-service
