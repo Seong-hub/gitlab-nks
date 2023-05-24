@@ -23,7 +23,8 @@ spec:
 ---
 
 apiVersion: v1
-kind: Servicemetadata:
+kind: Service
+metadata:
   name: gitlab-nks-service
   namespace: gitlab
 spec:
